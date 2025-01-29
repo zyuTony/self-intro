@@ -5,20 +5,27 @@ export default function Home() {
       <header className="mb-6">
         <h1 className="text-4xl font-bold">Tony Z. Yu</h1>
         <p className="my-3 text-sm">
-          yzy@uchicago.edu |{" "}
+          yzy@uchicago.edu | 952-905-1778 |{" "}
+          <a
+            href="https://github.com/zyuTony"
+            className="text-blue-600 hover:text-blue-800"
+          >
+            github
+          </a>{" "}
+          |{" "}
+          <a
+            href="https://medium.com/@zongyuan1998"
+            className="text-blue-600 hover:text-blue-800"
+          >
+            medium
+          </a>{" "}
+          |{" "}
           <a
             href="https://www.linkedin.com/in/z-yu"
             className="text-blue-600 hover:text-blue-800"
           >
             linkedin
           </a>{" "}
-          |{" "}
-          <a
-            href="https://github.com/zyuTony"
-            className="text-blue-600 hover:text-blue-800"
-          >
-            github
-          </a>
         </p>
       </header>
       <section className="mb-6">
@@ -43,7 +50,16 @@ export default function Home() {
             {", "}
             the standard finacial calendar for retail businesses.
           </li>
-          <li>next up - 13F Filiings Analytical Database</li>
+          <li>
+            <a
+              href="https://eutra.co"
+              className="text-blue-600 hover:text-blue-800"
+            >
+              Crypto Insights
+            </a>{" "}
+            - Track cryptocurrency performance with customizable time periods
+            and analytics. More features in development.
+          </li>
         </ul>
       </section>
       <section className="mb-6">
@@ -73,7 +89,7 @@ export default function Home() {
         </ul>
       </section>
       <footer className="text-center mt-6">
-        <p>&copy; {new Date().getFullYear()} Tony Yu. All Rights Reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Tony Z. Yu </p>
       </footer>
     </div>
   );
