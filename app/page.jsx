@@ -1,10 +1,10 @@
 // pages/index.js
 export default function Home() {
   return (
-    <div className="p-6">
+    <div className="p-6 font-['Helvetica_Neue',_sans-serif] text-lg">
       <header className="mb-6">
-        <h1 className="text-4xl font-bold">Tony Z. Yu</h1>
-        <p className="my-3 text-sm">
+        <h1 className="text-5xl font-bold">Tony Z. Yu</h1>
+        <p className="my-3 text-base">
           yzy@uchicago.edu | 952-905-1778 |{" "}
           <a
             href="https://github.com/zyuTony"
@@ -29,16 +29,16 @@ export default function Home() {
         </p>
       </header>
       <section className="mb-6">
-        <h2 className="text-lg font-semibold">Projects</h2>
+        <h2 className="text-xl font-semibold">Products</h2>
         <ul className="list-none ml-4">
           <li>
             <a
-              href="https://github.com/zyuTony"
+              href="https://findtimeframe.com"
               className="text-blue-600 hover:text-blue-800"
             >
               Interactive Retail Calendar
             </a>{" "}
-            - Interactive Version of the{" "}
+            - I developed an interactive web tool for the{" "}
             <a
               href="https://nrf.com/resources/4-5-4-calendar"
               className="underline"
@@ -48,39 +48,43 @@ export default function Home() {
               454 Retail Calendar
             </a>
             {", "}
-            the standard finacial calendar for retail businesses.
+            the industry-standard financial calendar used by major retailers.
+            500+ active analyst users.
           </li>
           <li>
             <a
               href="https://eutra.co"
               className="text-blue-600 hover:text-blue-800"
             >
-              Crypto Insights
+              Trader Insights
             </a>{" "}
-            - Track cryptocurrency performance with customizable time periods
-            and analytics. More features in development.
+            - I built a tool to provide trading insights on cryptocurrency. It
+            scans all coins listed on Binance, provides signals for pair
+            trading, and allows you to analyze crypto performance in different
+            periods.
           </li>
         </ul>
       </section>
       <section className="mb-6">
-        <h2 className="text-lg font-semibold">Works</h2>
+        <h2 className="text-xl font-semibold">Works</h2>
         <ul className="list-none ml-4">
           <li>Data Scientist @ Gap Inc. --- since 2022</li>
           <li>Capstone Lead @ Inference Analytics Inc. --- 2022</li>
-
           <li>Analyst Intern at ChangingThePresent.org --- 2020</li>
+          <li className="text-sm text-gray-600 mt-1">
+            More details about my work experience on my LinkedIn profile
+          </li>
         </ul>
       </section>
       <section className="mb-6">
-        <h2 className="text-lg font-semibold">Educations</h2>
+        <h2 className="text-xl font-semibold">Educations</h2>
         <ul className="list-none ml-4">
           <li>M.S. in Applied Data Science, Uchicago</li>
           <li>B.S. in Statistics, UC San Diego</li>
         </ul>
       </section>
-
       <section className="mb-6">
-        <h2 className="text-lg font-semibold">Skills</h2>
+        <h2 className="text-xl font-semibold">Skills</h2>
         <ul className="list-none ml-4">
           <li>SQL, Python, JavaScript (React, Nextjs)</li>
           <li>
