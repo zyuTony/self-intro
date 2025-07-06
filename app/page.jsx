@@ -68,12 +68,11 @@ export default function Home() {
       <section className="mb-6">
         <h2 className="text-xl font-semibold">Works</h2>
         <ul className="list-none ml-4">
-          <li>Data Scientist @ Gap Inc. --- since 2022</li>
+          <li>Data Scientist @ Instagram --- since 2025</li>
+          <li>Data Scientist @ Gap Inc. --- 2022-2025</li>
           <li>Capstone Lead @ Inference Analytics Inc. --- 2022</li>
           <li>Analyst Intern at ChangingThePresent.org --- 2020</li>
-          <li className="text-sm text-gray-600 mt-1">
-            More details about my work experience on my LinkedIn profile
-          </li>
+          <li className="text-sm text-gray-600 mt-1">More on LinkedIn</li>
         </ul>
       </section>
       <section className="mb-6">
