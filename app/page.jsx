@@ -58,10 +58,8 @@ export default function Home() {
             >
               Trader Insights (stale)
             </a>{" "}
-            - I built a tool to provide trading insights on cryptocurrency. It
-            scans all coins listed on Binance, provides signals for pair
-            trading, and allows you to analyze crypto performance in different
-            periods.
+            - Provide trading insights on cryptocurrency. It scans all coins
+            listed on Binance, provides signals for pair trading.
           </li>
         </ul>
       </section>
@@ -71,7 +69,7 @@ export default function Home() {
           <li>Data Scientist @ Instagram --- since 2025</li>
           <li>Data Scientist @ Gap Inc. --- 2022-2025</li>
           <li>Capstone Lead @ Inference Analytics Inc. --- 2022</li>
-          <li>Analyst Intern at ChangingThePresent.org --- 2020</li>
+          <li>Analyst Intern @ ChangingThePresent.org --- 2020</li>
           <li className="text-sm text-gray-600 mt-1">More on LinkedIn</li>
         </ul>
       </section>
