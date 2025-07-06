@@ -53,10 +53,10 @@ export default function Home() {
           </li>
           <li>
             <a
-              href="https://eutra.co"
+              href="https://financial-insights-web.vercel.app/"
               className="text-blue-600 hover:text-blue-800"
             >
-              Trader Insights
+              Trader Insights (stale)
             </a>{" "}
             - I built a tool to provide trading insights on cryptocurrency. It
             scans all coins listed on Binance, provides signals for pair
