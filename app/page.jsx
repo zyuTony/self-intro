@@ -5,7 +5,7 @@ export default function Home() {
       <header className="mb-6">
         <h1 className="text-5xl font-bold">Tony Z. Yu</h1>
         <p className="my-3 text-base">
-          yzy@uchicago.edu | 952-905-1778 |{" "}
+          {" "}
           <a
             href="https://github.com/zyuTony"
             className="text-blue-600 hover:text-blue-800"
